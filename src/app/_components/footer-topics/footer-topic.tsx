@@ -41,7 +41,7 @@ export const FooterTopics: React.FC = () => {
           <ul className="flex flex-col gap-3">
             {Data.map((d, i) => (
               <div className="flex flex-col">
-                <li>
+                <li key={i}>
                   <Link
                     href={"/"}
                     className="flex justify-start items-center text-neutral-shadow gap-1"
@@ -58,7 +58,7 @@ export const FooterTopics: React.FC = () => {
           <ul className="flex flex-col gap-3">
             {topic.map((t, i) => (
               <div className="flex flex-col">
-                <li>
+                <li key={i}>
                   <Link
                     href={"/"}
                     className="flex justify-start items-center text-neutral-shadow gap-1"

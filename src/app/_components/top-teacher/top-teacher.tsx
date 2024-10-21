@@ -16,10 +16,10 @@ export const TopTeacher: React.FC = () => {
       </div>
       <Swiper spaceBetween={5} slidesPerView={1.6} className="h-72 w-80">
         <div className="flex gap-1 justify-start items-center overflow-hidden rounded-lg w-[380px]">
-          {teachers.map((teacher) => (
+          {teachers.map((teacher, i) => (
             <SwiperSlide>
               <TopTeacherList
-                key={teacher.id}
+                key={i}
                 id={teacher.id}
                 title={teacher.title}
                 image={teacher.image}

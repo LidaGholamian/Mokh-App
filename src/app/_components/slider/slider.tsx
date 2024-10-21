@@ -16,10 +16,10 @@ export const SliderMobile: React.FC = () => {
       </h2>
       <Swiper spaceBetween={5} slidesPerView={1.6} className="h-80 w-80">
         <div className="flex gap-1 justify-start items-center overflow-hidden rounded-lg w-[380px]">
-          {videos.map((video) => (
+          {videos.map((video, i) => (
             <SwiperSlide>
               <SliderDetails
-                key={video.id}
+                key={i}
                 id={video.id}
                 title={video.title}
                 image={video.image}

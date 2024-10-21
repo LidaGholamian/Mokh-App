@@ -1,4 +1,3 @@
-import { FooterTopicProps } from "../types/footer-topics.type";
 import { FooterImage } from "./footerimage";
 import namad from "../../constant/namad.json";
 
