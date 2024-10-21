@@ -1,0 +1,22 @@
+[
+    {
+      "id": 1,
+      "title": "برنامه‌نویسی",
+      "image": "/image/coding.png"
+    },
+    {
+      "id": 2,
+      "title": "شیرینی‌پزی",
+      "image": "/image/pastery.png"
+    },
+    {
+      "id": 3,
+      "title": "گویندگی",
+      "image": "/image/coding.png"
+    },
+    {
+      "id": 4,
+      "title": "نقاشی سیاه‌قلم",
+      "image": "/image/pastery.png"
+    }
+  ]

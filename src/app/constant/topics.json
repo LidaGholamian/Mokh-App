@@ -1,0 +1,32 @@
+[
+    {
+      "id": 1,
+      "title": "مهارت",
+      "image": "/image/maharat.png"
+    },
+    {
+      "id": 2,
+      "title": "درسی",
+      "image": "/image/dars.png"
+    },
+    {
+      "id": 3,
+      "title": "تکنولوژی",
+      "image": "/image/tech.png"
+    },
+    {
+      "id": 4,
+      "title": "زبان",
+      "image": "/image/zaban.png"
+    },
+    {
+      "id": 5,
+      "title": "ورزش",
+      "image": "/image/sport.png"
+    },
+    {
+      "id": 6,
+      "title": "هنر",
+      "image": "/image/honar.png"
+    }
+  ]
