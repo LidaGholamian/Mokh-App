@@ -13,9 +13,8 @@ export const Classes: React.FC = () => {
     >
       <div className="flex gap-1 justify-start items-center overflow-hidden rounded-lg w-[380px]">
         {classes.map((classe, i) => (
-          <SwiperSlide>
+          <SwiperSlide key={i}>
             <ClassesList
-              key={i}
               id={classe.id}
               title={classe.title}
               image={classe.image}
