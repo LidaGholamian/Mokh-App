@@ -44,15 +44,27 @@ export const FooterFaq: React.FC = () => {
         <ul className="text-secondary flex flex-col gap-6">
           تماس با ما
           <li className="text-neutral-shadow text-xs flex items-center gap-2">
-            <Image src="/image/mail.png" width={15} height={15} alt="Email" />
+            <Image
+              src="/image/mail.png"
+              width={15}
+              height={15}
+              alt="Email"
+              className="w-[15px] h-auto"
+            />
             <Link href={"/"}>info@gajino.com</Link>
           </li>
           <li className="text-neutral-shadow text-xs flex items-center gap-2">
-            <Image src="/image/tell.png" width={15} height={15} alt="tell" />
+            <Image
+              src="/image/tell.png"
+              width={15}
+              height={15}
+              alt="tell"
+              className="w-[15px] h-auto"
+            />
             <span>021-6420</span>
           </li>
           <li className="text-neutral-shadow text-xs flex items-start gap-2">
-            <FaLocationDot className="text-primary text-5xl" />
+            <FaLocationDot className="text-primary text-2xl" />
             <span>
               تهران کیلومتر 14 جاده مخصوص - بلوار ایران خودرو - نرسیده به فتح -
               پلاک 2

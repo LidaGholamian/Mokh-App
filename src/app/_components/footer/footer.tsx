@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { FooterTopics } from "../footer-topics/footer-topic";
 import { FooterFaq } from "../footer-faq";
+import { FooterLinks } from "../footer-links";
 
 export const Footer: React.FC = () => {
   return (
@@ -19,10 +20,9 @@ export const Footer: React.FC = () => {
       </p>
       <FooterTopics />
       <FooterFaq />
-      <p className="mt-20">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique,
-        quibusdam. Hic aspernatur eaque est quaerat eos illo iure numquam earum
-        optio alias a eveniet quibusdam odit ipsa deleniti, voluptatibus totam.
+      <FooterLinks />
+      <p className="text-neutral-base mt-6 mb-4 text-sm">
+        تمامی حقوق برای گاج محفوظ است
       </p>
     </div>
   );

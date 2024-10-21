@@ -1,5 +1,5 @@
 export type FooterTopicProps = {
     id: number,
-    title: string,
+    title?: string,
     image?: string
 }
